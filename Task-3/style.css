@@ -1,0 +1,54 @@
+h1{
+    font-size: 45px;
+}
+img{
+   float: inline-start;
+   align-items: center;
+}
+
+table{
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+    
+}
+
+button{
+    width:100%;
+    padding: 30px 40px;
+    background-color: rgb(179, 202, 229);
+    color: rgb(59, 140, 167);
+    border-radius: 8px;
+    font-size: 25px;
+    font-weight: 700;
+    border: none;
+    
+}
+button:hover{
+    background-color: rgb(88, 181, 219);
+    color: rgb(255, 255, 255);;
+}
+
+input[type="text"]{
+    padding: 30px 40px;
+    background-color: rgb(182, 223, 241);
+    color: white;
+    border-radius: 8px;
+    font-size: 25px;
+    font-weight: 700;
+    border: none;
+}
+input[type="text"]:hover{
+    background-color: rgb(145, 187, 205);
+}
+
+.operational{
+    color: rgb(167, 24, 24);
+    background-color:  rgb(150, 185, 226);;
+}
+
+    .operational:hover{
+        background-color:  rgb(46, 93, 147);;
+        color: rgb(255, 5, 5);
+    }

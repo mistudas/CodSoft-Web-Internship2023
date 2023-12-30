@@ -1,0 +1,798 @@
+
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./images/background_Noise.png);
+}
+
+/*!--first page--------------------------------------------------------------------*/
+#finzoo{
+    width: 120px;
+}
+.fa-solid{
+    display: none;
+}
+#bar{
+    display: none;
+}
+#closebtn{
+    display: none;
+}
+#firstPage header{
+    margin: 10px 20px;
+}
+
+#firstPage header nav img{
+    width: 250px;
+}
+
+.nav{
+    margin: 0px 10px;
+    padding: 15px 10px 10px;
+    float:inline-end;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.nav 
+.alink{
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    transition: 0.2s;
+}
+  
+
+.nav .alink::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #4dcea7;
+    position: absolute;
+    left: 8px;
+    bottom: 0;
+    transition: 0.5s;
+}
+
+
+.nav .alink:hover::after{
+    width: 80%;
+}
+
+.nav .alink:hover{
+    font-size: 22px;
+}
+
+
+main{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    padding: 15% 5%;
+
+    background-image: url(./images/background_vector.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+    line-height: 65px;
+}
+
+main p{
+    font-size: 35px;
+}
+
+main #firstPage-headtext{
+    font-size:80px; 
+    font-weight: bolder;
+}
+
+#bg-blue{
+    color: #0E76D0;
+}
+
+#bg-green{
+    color: #6CC16D;
+}
+
+.firstPage-button {
+    width: 240px;
+    height: 70px;
+    border-radius: 40px;
+    border: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-weight: 900;
+}
+
+
+/*!--SECOND page--------------------------------------------------------------------*/
+.bg-black{
+    background-color:#282828;
+    color: white;
+    
+}
+
+.secondPage{
+    padding: 100px 0px 100px;
+}
+.secondPageArea{
+    padding: 0px 150px;
+    margin-bottom: 150px;
+}
+
+#secondPageImg{
+    
+    float: inline-end;
+    align-items: center;
+    
+}
+
+
+.secondPageText p{
+    font-size: 90px;
+    margin-bottom: 29px;
+    
+}
+
+.secondPageText h2{
+    font-size: 30px;
+}
+.secondPageCard{
+    
+}
+.card-list{
+    display: flex;
+    justify-content: space-evenly ;
+    align-items: start;
+    list-style-type: none;
+    background-image: url(images/down\ line.png);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+
+.card{
+    border:2px solid white;
+    border-radius: 14px;
+    background-color: #6CC16D;
+    height: 280px;
+    width: auto;
+    margin: 20px;
+
+}
+.card-img{
+    height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid white; 
+  padding: 10%; 
+  background-color: black;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+
+}
+
+.card-img img{
+    width: 23%;
+}
+
+.card-body{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    margin: 20px;
+}
+
+/*!--THIRD page--------------------------------------------------------------------*/
+.thirdPage{
+    padding: 110px 40px 170px 0px;
+    background-image: url(images/background_Noise2.png);
+}
+
+.thirdPageText h2{
+    font-size: 60px;
+     padding-bottom: 20px;
+}
+.thirdPageText h1{
+    font-size: 90px;
+    font-weight: bolder;
+    padding-bottom: 40px;
+}
+.thirdPageText p{
+    font-size: 40px;
+}
+.thirdPageArea{
+    
+}
+
+.thirdPageImg{   
+    float: inline-start;
+}
+
+.thirdPageText{
+   text-align: end;
+}  
+
+/*!--FOURTH page--------------------------------------------------------------------*/
+.fourthPage{
+    padding: 0px 0px 50px;
+    
+}
+
+.fourthPageArea{
+    background-image: url(images/WeProvide.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+
+}
+
+.fourthPageText{
+    padding: 80px 50px;
+    text-align: center;
+    font-size: 120px;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    padding-top: 190px;
+     
+}
+
+.fourthPageIcons{
+    padding-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    text-align: center;
+    padding-left:50px;
+    padding-right: 50px;
+    font-weight: bold;
+}
+
+.fourthIcon{
+    width: 80%;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+
+#bg-black{
+    color: black;
+}
+.bg-blue{
+    background-color: #0E76D0;
+    padding: 160px 200px;
+    background-image: url(images/background_Noise3.png);
+}
+
+
+/*!--FIFTH page--------------------------------------------------------------------*/
+.fifthPage{
+    text-align: center;
+
+}
+
+.fifthpageText h1{
+    font-size: 70px; font-weight: bolder; color: white; padding-bottom: 50px;
+}
+
+.fifthpageText p{
+    font-size: 30px;
+     padding-bottom: 40px;
+      line-height: 40px;
+}
+
+/*!--SIXTH page--------------------------------------------------------------------*/
+.sixthPage{
+    padding: 70px 100px;
+    background-color: white;
+    text-align: center;
+}
+
+.sixthPage ul li{
+    list-style: none;
+    display: inline;
+    margin: 5px;
+}
+.sixthPage ul li img{
+    transition: 0.5s;
+    padding: 4px;
+    border-radius: 30px;
+}
+
+.sixthPage ul li img:hover{
+background-color: rgb(218, 218, 218);
+
+}
+
+
+/*!--SEVEN page--------------------------------------------------------------------*/
+
+.bg-green{
+    background-color: #6CC16D;
+    background-image: url(images/background_Noise4.png);
+}
+
+.seventhPage{
+    padding: 80px 80px;
+    text-align: center;
+}
+
+body > div.bg-green > div > div > p:nth-child(1){
+    font-size: 60px; 
+    font-weight: bolder;
+     color: white;
+}
+body > div.bg-green > div > div > p:nth-child(2){
+    padding: 40px 0px; font-size: 40px; font-weight: 550;
+}
+
+.bg-black{
+    background-color: #282828;
+}
+.box{
+    margin: 30px 0;
+}
+.box ul li{
+    list-style: none;
+    display: inline;
+    padding: 11px;
+    line-height: 90px;
+}
+
+/*!--EIGHT page--------------------------------------------------------------------*/
+.eighthPage{
+    padding: 30px 150px;
+}
+
+.eieighthPageText1{
+    padding-right: 200px;
+    float: inline-start;
+
+    font-size: 120px;
+    font-weight: bolder;
+}
+
+.eieighthPageText2{
+    
+    margin-bottom: 100px; 
+}
+
+#eighthPageBlueStar{
+    float: inline-end;
+}
+
+#eighthPageGreenStar{
+    padding-left: 90px;
+}
+
+.ninthPage{
+    margin: 70px 0px;
+    padding: 50px 0px;
+    text-align: center;
+    display: block;
+    justify-content:center;
+    align-items: center;
+    background-image: url(images/testimonials.png);
+    background-position: center;
+    
+}
+
+.ninthPageGrid{
+    margin: 40px 40px;
+}
+
+.ninthPageGridInside{
+    padding: 50px 20px;
+
+
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+}
+
+#blueDots{
+    float: inline-start;
+
+}
+
+#greenDots{
+    float: inline-end;
+    
+}
+
+#ninthPageProfile{
+    height: 23%;
+    width: auto;
+   
+}
+
+#ninthPageStarBlock{
+    align-items: flex-start;
+    padding: 20px 100px;
+}
+
+#star4{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+
+footer{
+    padding: 90px;
+    
+}
+
+body > footer > div.leftArea > p:nth-child(2){
+    font-size: 25px; font-weight: bolder; padding: 20px 0px;
+}
+body > footer > div.leftArea > p:nth-child(3){
+font-size: 25px; line-height: 25px;
+}
+
+.leftArea{
+    text-align: left;
+    display: block;
+    float: inline-start;
+}
+
+.rightTable{
+    display: flex;
+    line-height: 40px;
+    text-align: left;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+
+}
+rightTable {
+    line-height: 40px;
+    text-align: left;
+    font-size: 18px;
+    display: block;
+    padding-top: 140px;
+}
+
+body > footer > div.rightTable > table > tbody > tr{
+    padding: 10px;
+}
+
+/*  MEDIA QUERY*/
+
+.fa-solid{
+    display: none;
+}
+@media only screen and (min-width: 750px) and (max-width: 1100px){
+    .fa-solid{
+        display: none;
+    }
+.nav .alink::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #4dcea7;
+    position: absolute;
+    left: 1px;
+    bottom: 0;
+    transition: 0.5s;
+}
+
+
+.nav .alink:hover::after{
+    width: 80%;
+}
+
+.nav .alink:hover{
+    font-size: 22px;
+}
+    #firstPage header nav img{
+        width: 209px;
+        display: block;
+    }
+
+    #firstPage header nav .nav{
+    padding: 10px 0px;
+    width: 100%;
+    display: flex;
+    float: inline-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+
+    }
+
+    .card-body{
+        font-size: 25px;
+    }
+
+    .eieighthPageText2 {
+        margin-bottom: -19px;
+    }
+    .secondPageText p {
+        font-size: 66px;
+        margin-bottom: 29px;
+    }
+    .secondPage {
+        padding: 50px 0px 50px;
+    }
+    .secondPageText h2 {
+        font-size: 25px;
+    }
+    .secondPageArea {
+        padding: 0px 50px;
+        margin-bottom: 90px;
+    }
+    .thirdPageText h2 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+    .thirdPageText h1 {
+        font-size: 70px;
+    }
+
+    body > div:nth-child(2) > div.thirdPage > div > div.thirdPageText > p{
+        font-size: 19px;
+    }
+    body > div:nth-child(2) > div.fourthPage > div > p{
+        font-size: 110px;
+    }
+    .fifthpageText h1 {
+        font-size: 50px;
+    }
+    .fifthpageText p {
+        font-size: 20px;
+        padding-bottom: 20px;
+        line-height: 40px;
+    }
+    .bg-blue {
+        background-color: #0E76D0;
+        padding: 80px 20px;
+    }
+    .sixthPage {
+        padding: 50px 0px;
+    }
+    body > div.bg-green > div > div > p:nth-child(1){
+        font-size: 40px;}
+        body > div.bg-green > div > div > p:nth-child(2){
+            padding: 35px 0px;
+            font-size: 32px;
+            font-weight: 550;
+        }
+        body > div:nth-child(6) > div.eighthPage > p{
+            font-size: 100px;
+        }
+
+        .eighthPage {
+            padding: 30px 100px;
+        }
+
+        #ninthPageStarBlock {
+            align-items: flex-start;
+            padding: 20px 40px;
+        }
+        body > div:nth-child(6) > div.eighthPage > div > p{
+            display: flex;
+        }
+        footer {
+            padding: 0px 30px 30px;
+        }
+        .rightTable {
+            display: flex;
+           
+            text-align: left;
+            font-size: 18px;
+            display: flex;
+            flex-direction: column;
+            padding-left: 100px;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+        }
+
+        body > footer > div.rightTable > table > tbody>tr{
+            width: 100%;
+            font-size:15px;
+
+        }
+
+}
+
+@media only screen and (min-width: 400px) and (max-width: 749px){
+
+#firstPage > header > nav > div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* vertical */
+    flex-direction: column; /* horizontal */
+}
+.fa-solid{
+    display: flex;
+    float: inline-end;
+    font-size: 55px;
+}
+.nav1{
+    gap: 20px;
+    position: fixed;
+    background-color: #0E76D0;
+    right: 200px;
+    width: 400px;
+    box-shadow: -3px 3px 10px rgba(0,0,0,.3);
+    top: 50px;
+    z-index: 1;
+    opacity: 0;
+   
+   
+    
+
+    
+}
+
+footer {
+    padding: 9px 50px;
+}
+body > footer > div.leftArea{
+    text-align: left;
+    display: block;
+}
+.rightTable {
+    line-height: 40px;
+    text-align: left;
+    font-size: 18px;
+    display: block;
+    padding-top: 250px;
+}
+body > footer > div.rightTable {
+    padding: 260px 0px 70px;
+}
+
+.ninthPageGridInside {
+    padding: 50px 20px;
+    background-color: black;
+    border-radius: 20px;
+    display: block;
+}
+#ninthPageStarBlock{
+    padding: 20px 50px;
+}
+.eighthPage {
+    padding: 30px 50px;
+}
+.eieighthPageText1 {
+  
+    float: inline-start;
+    font-size: 111px;
+    font-weight: bolder;
+}
+.eieighthPageText2 {
+    margin-bottom: 0px;
+}
+
+
+.card-list {
+    display: block;
+    justify-content: space-evenly;
+    align-items: start;
+    list-style-type: none;
+    background-image: url(images/downLine2);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card {
+    border: 2px solid white;
+    border-radius: 14px;
+    background-color: #6CC16D;
+    height: 200px;
+    width: auto;
+    margin: 50px;
+    align-items: center;
+}
+.thirdPageImg img{
+    width: 0%;
+}
+.seventhPage {
+    padding: 8px 20px;
+    text-align: center;
+}
+body > div.bg-green > div > div > p:nth-child(2) {
+    padding: 40px 0px;
+    font-size: 30px;
+    font-weight: 550;
+}
+.bg-blue {
+    background-color: #0E76D0;
+    padding: 30px 20px;
+    background-image: url(images/background_Noise3.png);
+}
+.fifthpageText h1 {
+    font-size: 50px;}
+    
+.fifthpageText h1 #bg-black{
+    font-size: 60px;
+}
+.thirdPage {
+    padding: 10px 20px 50px 0px;
+    /* background-image: url(images/background_Noise2.png); */
+}
+.fourthPageText{
+    padding: 10px 70px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    padding-top: 10px;
+}
+.fourthPageIcons {
+    padding-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+.card-img img {
+    width: 20%;
+}
+
+.eachIcon{
+    width: 90px;
+}
+
+.fourthIcon{
+    font-size: 10px;
+}
+.eachIcon p{
+    font-size: 14px;
+}
+.secondPage{
+    padding: 0px
+}
+.secondPageArea {
+    padding: 0px 25px;
+    margin-bottom: 90px;
+}
+#secondPageImg {
+    float: inline-start;
+    align-items: center;
+    margin-top: 30px;
+}
+main #firstPage-headtext {
+    font-size: 60px;
+    font-weight: bolder;
+}
+main p {
+    font-size: 20px;
+}
+body{
+    margin:0;
+    padding: 0;
+    
+}
+
+.fullFinzoo{
+    padding: 0;
+    margin: 0;
+}
+
+}

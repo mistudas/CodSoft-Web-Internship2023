@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio-Mistu Das</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a7305210e3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img class="logo" src="images/logo.png" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>hi! I'm <span>Mistu</span> <br>Das from India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--ABOUT SECTION---------------------------------------------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">AboutMe</h1>
+                    <p> Hi, I'm Mistu Das, a skilled web developer from India. specialize in creating responsive and user-friendly websites. Experienced in both front-end and back-end technologies, I bring a passion for clean code and a commitment to delivering high-quality digital solutions. Let's build something amazing together!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div> 
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Desinging Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                        
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Mar 23' - Nov 23'</span><br> PROMANIA : Full-Stack development Intern</li>
+                            <li>With expertise in JavaScript and it's libraries like React.js, Tailwind CSS, and HTML5, I bring a comprehensive skill set to the table. I am dedicated to continuous learning, staying updated with the latest industry trends and expanding my knowledge. Leveraging my problem-solving skills and attention to detail, I strive to optimize code for enhanced performance.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2022</span><br>MSc from Assam University, Silchar</li>
+                            <li><span>2017-2020</span><br>Graduation from Gurucharan College, Silchar</li>
+                        </ul>
+                    </div>
+               
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!--services SECTION----------------------------------------------------------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+              <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web design is the art of creating visually appealing and user-friendly websites, encompassing layout, color schemes, and typography. It involves collaboration with stakeholders and employs various tools to ensure a seamless and engaging online experience.</p>
+                <a href="https://en.wikipedia.org/wiki/Web_design" target="_blank">Learn more</a>
+              </div>
+              <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p> UI/UX design involves crafting the user interface (UI) and user experience (UX) of digital products, focusing on intuitive navigation, visual aesthetics, and overall user satisfaction. Designers use wireframing, prototyping, and user testing to create interfaces that seamlessly blend functionality with a visually pleasing and user-centric design.</p>
+                <a href="https://en.wikipedia.org/wiki/User_experience_design#:~:text=Unlike%20user%20interface%20design%2C%20which,brand%20perception%2C%20and%20overall%20performance." target="_blank">Learn more</a>
+              </div>
+             
+            </div>
+        </div>
+    </div>
+
+    <!--PORTFOLIO SECTION----------------------------------------------------------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Weather Report App</h3>
+                        <p>My weather app delivers real-time updates, forecasts, and a user-friendly interface, ensuring accurate information through integration with reliable weather APIs.</p>
+                        <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>A sleek music app with personalized playlists, seamless navigation, and a vast library, providing an immersive musical experience for users.</p>
+                        <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Efficient online shopping app with intuitive navigation, secure transactions, and a diverse product range, offering a seamless and enjoyable shopping experience.</p>
+                        <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>    
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+            
+        </div>
+    </div>
+
+    <!--CONTACT SECTION----------------------------------------------------------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>mistudas95518@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9101149464</p>
+
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn-2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="your name" required>
+                        <input type="email" name="Email" placeholder="your email " required>
+                        <textarea name="Message" rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn-2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!--COPYRIGHT SECTION----------------------------------------------------------------------------------->
+    <div class="copyright">
+        <p>Copyright © Mistu. Made with <i class="fa-solid fa-heart"></i> by Mistu Das</p>
+    </div>
+
+
+</body>
+<script >
+
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove('active-link')
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove('active-tab')
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById('sidemenu');
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+</html>
